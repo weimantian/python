@@ -3,5 +3,3 @@ print(list)
 
 for i, value in enumerate(list) :
 	print(f"{i} : {value}")
-	
-    
