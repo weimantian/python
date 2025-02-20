@@ -53,7 +53,9 @@ print(motorcycles, f", length: {len(motorcycles)}")
 motorcycles.reverse()
 print(motorcycles, f", length: {len(motorcycles)}")
 
-
+# 将字符串转为列表
+str_list = "Hello World"
+print(list(str_list))
 
 
 

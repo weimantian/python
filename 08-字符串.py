@@ -13,4 +13,11 @@ print(f"str_test.strip(): {str_test.strip()}")
 str = "sshhhss"
 print(str.strip("s"))
 print(str.rstrip("s"))
+# 字符串分割
+str_list = "Hello World".split()
+print(str_list)
+
+str_list = "Hello World".split("o")
+print(str_list)
+
 
