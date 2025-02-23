@@ -1,19 +1,35 @@
-print("hello")
-# a = input("please input the words: ")
-# print(a)
-
 # 列表
-# append()：在列表末尾添加数据
-# insert(位置, 数据)：在指定位置添加数据
-# del 语句：删除指定位置的元素，例如：del list[1],删除索引位置为1的数据
-# pop(): 参数为空时删除末尾的数据，并返回末尾数据，类似出栈；参数不为空时弹出指定位置的数据
-# remove(要删除的数据): 根据值删除数据，只能删除第一个数据
-# sort(): 列表永久排序
-# sorted(); 列表临时排序
-# reverse()：永久反转列表
-# len(ls): 计算列表长度
-ls = [] # 空列表
-ls.append([1,2]) # 在末尾添加数据
+# 列表是一种有序的集合，可以随时添加和删除其中的数据
+# 列表的声明
+lst = []
+print(lst)
+# 创建一个包含数字1-5的列表
+lst = [1, 2, 3, 4, 5]
+print(lst)
+
+# 创建一个包含数字1-9的列表
+lst = list(range(1, 10))
+print(lst)
+
+# 创建一个包含偶数的列表
+lst = [value for value in range(1, 10) if value % 2 == 0]
+print(lst)
+
+# 创建一个包含数字0-9的列表
+lst = [0] * 10
+print(lst)
+
+# 将列表中的元素添加到列表末尾
+lst = [1, 2, 3, 4, 5]
+lst.extend([6, 7, 8])
+print(lst)
+
+# 将列表中的元素添加到列表末尾
+lst.append([9, 10])
+print(lst)
+
+# 访问列表中的元素
+ls = ['a'] 
 print(ls[0]) # 访问列表的第一个数据
 
 ls.append("hello")
@@ -56,8 +72,6 @@ print(motorcycles, f", length: {len(motorcycles)}")
 # 将字符串转为列表
 str_list = "Hello World"
 print(list(str_list))
-
-
 
 
 

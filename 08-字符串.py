@@ -20,4 +20,6 @@ print(str_list)
 str_list = "Hello World".split("o")
 print(str_list)
 
-
+# Return the Unicode code point for a one-character string.
+# ord(c: str | bytes | bytearray, /) -> int)
+print(ord("b"))

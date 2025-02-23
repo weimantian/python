@@ -3,6 +3,9 @@
 # my_info = {"name":"wmt", 'age':28, "gender":"man"}
 
 # 创建一个空字典
+d = dict()
+
+# 创建一个空字典
 my_info = {}
 
 # 添加键和对应的值
