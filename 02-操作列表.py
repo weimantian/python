@@ -51,7 +51,11 @@ print(f"squars_copy = {squars_copy}")
 str_t = 'hello world'
 print(str_t[0:2])
 
+## 将字符列表以字符串形式输出
 
+list = ['h', 'e', 'l', 'l', 'o']
+ls = "".join(list)
+print(ls)
 
 
 

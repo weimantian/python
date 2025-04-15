@@ -23,3 +23,23 @@ print(str_list)
 # Return the Unicode code point for a one-character string.
 # ord(c: str | bytes | bytearray, /) -> int)
 print(ord("b"))
+
+##  访问最后一个元素
+string = "hello world!"
+print(string[-1])
+## 字符串分割 str.split(sep=None, maxsplit=-1)：返回一个由字符串内单词组成的列表，使用 sep 作为分隔字符串。
+print(string.split('o'))  # ["hell", "o", " w", "o", "rld"]
+print(string)
+
+s = "ssstrrtgdfssffss"
+# str.lstrip([chars])
+# 返回原字符串的副本，移除其中的头部字符
+print(s.lstrip("ss"))
+# str.rstrip([chars])
+# 返回原字符串的副本，移除其中的末尾字符
+print(s.rstrip("ss"))
+# str.strip([chars])
+# 返回原字符串的副本，移除其中的头部和末尾字符
+print(s.strip("ss"))
+
+
