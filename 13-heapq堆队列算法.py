@@ -34,3 +34,16 @@ print(arr)  # 输出: [0, 1, 5, 3, 2]
 result = heapq.heappushpop(heap, 4)
 print(result)  # 输出: 3
 print(heap)  # 输出: [4, 5]
+
+heap = []
+heapq.heappush(heap, [1,4,3])
+heapq.heappush(heap, [1,3,3])
+heapq.heappush(heap, [1,5,5])
+heapq.heappush(heap, [2,1,2])
+heapq.heappush(heap, [2,1,1])
+heapq.heappush(heap, [3,2,3])
+print(heapq.heappop(heap))
+print(heapq.heappop(heap))
+print(heapq.heappop(heap))
+print(heapq.heappop(heap))
+print(heapq.heappop(heap))
