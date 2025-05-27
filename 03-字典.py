@@ -51,8 +51,6 @@ print(my_info.keys(), type(my_info.keys()))
 for key in my_info.values():
 	print(key)
 
-# 按照特定顺序来返回
-
 
 
 

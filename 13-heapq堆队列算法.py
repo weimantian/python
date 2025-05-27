@@ -47,3 +47,7 @@ print(heapq.heappop(heap))
 print(heapq.heappop(heap))
 print(heapq.heappop(heap))
 print(heapq.heappop(heap))
+
+ls = [[3, 4], [3, 2], [4, 1]]
+heap = heapq.heapify(ls)
+print(ls)
